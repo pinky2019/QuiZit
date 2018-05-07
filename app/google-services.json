@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "326475342196",
+    "firebase_url": "https://quizit-22d28.firebaseio.com",
+    "project_id": "quizit-22d28",
+    "storage_bucket": "quizit-22d28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326475342196:android:7b21b24d1e32bf9d",
+        "android_client_info": {
+          "package_name": "com.example.a1506473.quizit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326475342196-tjdhqvatbn86g6ke7qpv0q3fme2717eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCpZ19MeckkT2CFollov_nt1gFQ0WxzDg"
+
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
