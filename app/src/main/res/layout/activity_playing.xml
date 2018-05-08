@@ -3,47 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".playing">
 
-
-
-
     <TextView
-android:id="@+id/score"
-        android:layout_gravity="right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"/>
     <TextView
-        android:id="@+id/Question"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        android:id="@+id/quest"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Answer A"
-        android:id="@+id/A"/>
+        android:id="@+id/ansA"
+        android:text="OPTION A"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Answer B"
-        android:id="@+id/B"/>
+        android:id="@+id/ansB"
+        android:text="OPTION B"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Answer C"
-        android:id="@+id/C"/>
+        android:id="@+id/ansC"
+        android:text="OPTION C"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Answer D"
-        android:id="@+id/D"/>
-
-
-
+        android:id="@+id/ansD"
+        android:text="OPTION D"/>
 
 </LinearLayout>

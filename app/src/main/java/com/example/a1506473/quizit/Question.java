@@ -9,8 +9,6 @@ public class Question
     private String AnswerC;
     private String AnswerD;
     private String CorrectAnswer;
-    private String categoryId;
-
     public Question()
     {
 
@@ -23,7 +21,6 @@ public class Question
         AnswerC = answerC;
         AnswerD = answerD;
         CorrectAnswer = correctAnswer;
-        this.categoryId = categoryId;
     }
 
     public String getQuestion() {
@@ -72,14 +69,6 @@ public class Question
 
     public void setCorrectAnswer(String correctAnswer) {
         CorrectAnswer = correctAnswer;
-    }
-
-    public String getCategoryId() {
-        return categoryId;
-    }
-
-    public void setCategoryId(String categoryId) {
-        this.categoryId = categoryId;
     }
 
 

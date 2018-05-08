@@ -33,7 +33,7 @@ public class Done extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-                Intent intent=new Intent(Done.this,Start.class);
+                Intent intent=new Intent(Done.this,QuestionActivity.class);
                 startActivity(intent);
 
             }

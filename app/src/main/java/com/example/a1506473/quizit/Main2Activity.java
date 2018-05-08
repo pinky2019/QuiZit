@@ -57,7 +57,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
     {
         final String email=editTextEmail.getText().toString().trim();
 
-        String password=editTextPassword.getText().toString();
+        final String password=editTextPassword.getText().toString().trim();
 
         if(TextUtils.isEmpty(email))
         {

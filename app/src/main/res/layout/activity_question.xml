@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".QuestionActivity">
-<TextView
-    android:layout_gravity="center"
-    android:textSize="30dp"
-    android:textColor="#e90826"
-    android:id="@+id/textViewWelcome"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#e90826"
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 
